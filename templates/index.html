@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta information and page title -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interest Matchmaker</title>
+    <!-- Internal CSS for styling the page -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f4f6;
+        }
+
+        .container {
+            display: flex;
+            height: 100vh;
+            flex-direction: column;
+        }
+
+        .left-panel {
+            width: 25%;
+            background-color: #e0f7fa; /* Light green */
+            padding: 20px;
+            box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+        }
+
+        .right-panel {
+            width: 75%;
+            background-color: #f1f8e9; /* Light purple */
+            padding: 20px;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+            background-color: #8e44ad; /* Purple */
+            color: white;
+            font-size: 24px;
+        }
+
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 10px;
+            border: 1px solid #ccc;
+            text-align: left;
+        }
+
+        th {
+            background-color: #8e44ad; /* Purple */
+            color: #fff;
+        }
+
+        .pagination {
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+
+        .pagination button {
+            padding: 10px;
+            margin: 0 5px;
+            background-color: #8e44ad;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .pagination button:disabled {
+            background-color: #ddd;
+            cursor: not-allowed;
+        }
+    </style>
+</head>
+<body>
+    <!-- Main Title of the Page -->
+    <h1>Interest Matchmaker</h1>
+
+    <div class="container">
+        <!-- Left panel for user selection -->
+        <div class="left-panel">
+            <h2>Select User</h2>
+            <!-- Dropdown to select a user -->
+            <select id="user-select">
+                <!-- User options will be dynamically added here by JavaScript -->
+            </select>
+        </div>
+        <!-- Right panel for displaying matched content -->
+        <div class="right-panel">
+            <h2>Matched Content</h2>
+            <!-- Search box to filter content -->
+            <input type="text" id="search-box" placeholder="Search content...">
+            <!-- Table to display matched content -->
+            <table id="content-table">
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Content</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Matched content rows will be dynamically added here by JavaScript -->
+                </tbody>
+            </table>
+            <!-- Pagination controls for navigating through content -->
+            <div class="pagination">
+                <button id="prev-page" disabled>Previous</button>
+                <button id="next-page" disabled>Next</button>
+            </div>
+        </div>
+    </div>
+    <script>
+        // JavaScript variables and constants
+        const users = JSON.parse('{{ users | tojson | safe }}');
+        const matches = JSON.parse('{{ matches | tojson | safe }}');
+        const userSelect = document.getElementById('user-select');
+        const contentTableBody = document.getElementById('content-table').querySelector('tbody');
+        const searchBox = document.getElementById('search-box');
+        const prevPageButton = document.getElementById('prev-page');
+        const nextPageButton = document.getElementById('next-page');
+
+        const itemsPerPage = 10; // Number of content items to show per page
+        let currentPage = 1; // Current page number
+        let currentUserMatches = []; // Content matches for the selected user
+
+        // Populate the user selection dropdown with user names
+        function populateUserSelect() {
+            users.forEach(user => {
+                const option = document.createElement('option');
+                option.value = user.name;
+                option.textContent = user.name;
+                userSelect.appendChild(option);
+            });
+        }
+
+        // Populate the content table with matches for the selected user
+        function populateContentTable(userName) {
+            currentUserMatches = matches[userName] || [];
+            currentPage = 1; // Reset to first page
+            renderTable(); // Render the table content
+            updatePaginationButtons(); // Update the pagination buttons
+        }
+
+        // Render the content table based on the current page
+        function renderTable() {
+            contentTableBody.innerHTML = ''; // Clear the table
+            const start = (currentPage - 1) * itemsPerPage;
+            const end = start + itemsPerPage;
+            const pageContent = currentUserMatches.slice(start, end);
+
+            // Add rows for each content item in the current page
+            pageContent.forEach(content => {
+                const row = document.createElement('tr');
+                const titleCell = document.createElement('td');
+                const contentCell = document.createElement('td');
+
+                titleCell.textContent = content.title;
+                contentCell.textContent = content.content;
+
+                row.appendChild(titleCell);
+                row.appendChild(contentCell);
+                contentTableBody.appendChild(row);
+            });
+        }
+
+        // Function to strip HTML tags from a string (used for search)
+        function stripHtmlTags(str) {
+            let div = document.createElement("div");
+            div.innerHTML = str;
+            return div.textContent || div.innerText || "";
+        }
+
+        // Filter the content table based on the search box input
+        function filterContentTable() {
+            const searchTerm = searchBox.value.toLowerCase();
+            currentUserMatches = matches[userSelect.value].filter(content => {
+                // Strip HTML tags from title before searching
+                const strippedTitle = stripHtmlTags(content.title);
+                return strippedTitle.toLowerCase().includes(searchTerm) || content.content.toLowerCase().includes(searchTerm);
+            });
+            currentPage = 1; // Reset to first page after filtering
+            renderTable(); // Render the filtered content
+            updatePaginationButtons(); // Update pagination controls
+        }
+
+        // Update the state of pagination buttons (enabled/disabled)
+        function updatePaginationButtons() {
+            prevPageButton.disabled = currentPage === 1;
+            nextPageButton.disabled = currentPage >= Math.ceil(currentUserMatches.length / itemsPerPage);
+        }
+
+        // Event listener for "Previous" pagination button
+        prevPageButton.addEventListener('click', () => {
+            if (currentPage > 1) {
+                currentPage--;
+                renderTable();
+                updatePaginationButtons();
+            }
+        });
+
+        // Event listener for "Next" pagination button
+        nextPageButton.addEventListener('click', () => {
+            if (currentPage < Math.ceil(currentUserMatches.length / itemsPerPage)) {
+                currentPage++;
+                renderTable();
+                updatePaginationButtons();
+            }
+        });
+
+        // Event listener for user selection change
+        userSelect.addEventListener('change', () => {
+            populateContentTable(userSelect.value);
+            filterContentTable();  // Apply filtering on content change
+        });
+
+        // Event listener for search box input
+        searchBox.addEventListener('input', filterContentTable);
+
+        // Initial population of user select dropdown and content table
+        populateUserSelect();
+        populateContentTable(users[0].name);
+    </script>
+</body>
+</html>

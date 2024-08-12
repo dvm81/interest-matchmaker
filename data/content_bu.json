@@ -1,0 +1,44 @@
+[
+    {
+        "id": "123",
+        "title": "My title",
+        "content": "Some content about UK",
+        "tags": [
+            {"type": "country", "value": "UK", "threshold": 0.25}
+        ]
+    },
+    {
+        "id": "125",
+        "title": "Art Exhibition",
+        "content": "Modern art trends",
+        "tags": [
+            {"type": "topic", "value": "art", "threshold": 0.49}
+        ]
+    },
+    {
+        "id": "126",
+        "title": "Football World Cup",
+        "content": "Exciting matches in the sports world",
+        "tags": [
+            {"type": "topic", "value": "sports", "threshold": 0.7}
+        ]
+    },
+    {
+        "id": "127",
+        "title": "Sports Update",
+        "content": "Latest sports news and updates",
+        "tags": [
+            {"type": "topic", "value": "sports", "threshold": 0.6}
+        ]
+    },
+    {
+        "id": "128",
+        "title": "Sports VAR Update",
+        "content": "Latest VAR technology updates UK",
+        "tags": [
+            {"type": "topic", "value": "sports", "threshold": 0.6},
+            {"type": "topic", "value": "technology", "threshold": 0.35}
+        ]
+    }
+]
+

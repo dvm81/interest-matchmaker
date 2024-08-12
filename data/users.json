@@ -1,0 +1,280 @@
+[
+    {
+        "name": "Albert Einstein",
+        "interests": [
+            {
+                "type": "art",
+                "value": "painting",
+                "threshold": 0.6638829896159226
+            },
+            {
+                "type": "tech",
+                "value": "blockchain",
+                "threshold": 0.37240877048855997
+            },
+            {
+                "type": "tech",
+                "value": "AI",
+                "threshold": 0.5984988693700675
+            }
+        ]
+    },
+    {
+        "name": "Marie Curie",
+        "interests": [
+            {
+                "type": "tech",
+                "value": "AI",
+                "threshold": 0.7024348717112439
+            }
+        ]
+    },
+    {
+        "name": "Nikola Tesla",
+        "interests": []
+    },
+    {
+        "name": "Ada Lovelace",
+        "interests": [
+            {
+                "type": "art",
+                "value": "painting",
+                "threshold": 0.4119210544268388
+            }
+        ]
+    },
+    {
+        "name": "Isaac Newton",
+        "interests": [
+            {
+                "type": "art",
+                "value": "modern art",
+                "threshold": 0.5372976856585979
+            },
+            {
+                "type": "science",
+                "value": "chemistry",
+                "threshold": 0.7280898998043244
+            }
+        ]
+    },
+    {
+        "name": "Leonardo da Vinci",
+        "interests": [
+            {
+                "type": "art",
+                "value": "painting",
+                "threshold": 0.6425268800143431
+            },
+            {
+                "type": "art",
+                "value": "modern art",
+                "threshold": 0.6065413765877297
+            }
+        ]
+    },
+    {
+        "name": "Elon Musk",
+        "interests": [
+            {
+                "type": "art",
+                "value": "painting",
+                "threshold": 0.7937683471894376
+            },
+            {
+                "type": "science",
+                "value": "physics",
+                "threshold": 0.44299050917731897
+            },
+            {
+                "type": "finance",
+                "value": "cryptocurrency",
+                "threshold": 0.38418500962598584
+            }
+        ]
+    },
+    {
+        "name": "Steve Jobs",
+        "interests": [
+            {
+                "type": "art",
+                "value": "painting",
+                "threshold": 0.6093280412812476
+            },
+            {
+                "type": "science",
+                "value": "physics",
+                "threshold": 0.3677765663476051
+            },
+            {
+                "type": "finance",
+                "value": "investing",
+                "threshold": 0.5402274109746346
+            }
+        ]
+    },
+    {
+        "name": "Bill Gates",
+        "interests": [
+            {
+                "type": "sports",
+                "value": "tennis",
+                "threshold": 0.6619327856684373
+            }
+        ]
+    },
+    {
+        "name": "Stephen Hawking",
+        "interests": [
+            {
+                "type": "sports",
+                "value": "basketball",
+                "threshold": 0.4075794349096712
+            },
+            {
+                "type": "tech",
+                "value": "AI",
+                "threshold": 0.6711376309625428
+            }
+        ]
+    },
+    {
+        "name": "Pablo Picasso",
+        "interests": [
+            {
+                "type": "science",
+                "value": "physics",
+                "threshold": 0.7766949806976996
+            },
+            {
+                "type": "art",
+                "value": "painting",
+                "threshold": 0.46724926960712493
+            }
+        ]
+    },
+    {
+        "name": "Vincent van Gogh",
+        "interests": [
+            {
+                "type": "sports",
+                "value": "tennis",
+                "threshold": 0.7619905602460916
+            }
+        ]
+    },
+    {
+        "name": "Michael Jordan",
+        "interests": [
+            {
+                "type": "tech",
+                "value": "blockchain",
+                "threshold": 0.441926013038892
+            },
+            {
+                "type": "finance",
+                "value": "cryptocurrency",
+                "threshold": 0.7803089562368475
+            }
+        ]
+    },
+    {
+        "name": "Serena Williams",
+        "interests": [
+            {
+                "type": "science",
+                "value": "chemistry",
+                "threshold": 0.7329066707274033
+            },
+            {
+                "type": "art",
+                "value": "painting",
+                "threshold": 0.786871918734069
+            },
+            {
+                "type": "tech",
+                "value": "AI",
+                "threshold": 0.7344926561920428
+            }
+        ]
+    },
+    {
+        "name": "Warren Buffett",
+        "interests": [
+            {
+                "type": "tech",
+                "value": "blockchain",
+                "threshold": 0.3795062452060875
+            },
+            {
+                "type": "sports",
+                "value": "basketball",
+                "threshold": 0.4616233214879989
+            },
+            {
+                "type": "art",
+                "value": "modern art",
+                "threshold": 0.5946901478268136
+            }
+        ]
+    },
+    {
+        "name": "Mark Zuckerberg",
+        "interests": [
+            {
+                "type": "sports",
+                "value": "tennis",
+                "threshold": 0.31893300186600476
+            }
+        ]
+    },
+    {
+        "name": "Jeff Bezos",
+        "interests": [
+            {
+                "type": "science",
+                "value": "chemistry",
+                "threshold": 0.6470352760394034
+            }
+        ]
+    },
+    {
+        "name": "J.K. Rowling",
+        "interests": []
+    },
+    {
+        "name": "Oprah Winfrey",
+        "interests": [
+            {
+                "type": "art",
+                "value": "painting",
+                "threshold": 0.771999380026603
+            },
+            {
+                "type": "tech",
+                "value": "blockchain",
+                "threshold": 0.5438275858474589
+            }
+        ]
+    },
+    {
+        "name": "Usain Bolt",
+        "interests": [
+            {
+                "type": "finance",
+                "value": "cryptocurrency",
+                "threshold": 0.3005539410857576
+            },
+            {
+                "type": "sports",
+                "value": "tennis",
+                "threshold": 0.640657009331212
+            },
+            {
+                "type": "tech",
+                "value": "AI",
+                "threshold": 0.5495896416465672
+            }
+        ]
+    }
+]

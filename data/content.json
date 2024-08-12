@@ -1,0 +1,1467 @@
+[
+    {
+        "id": "001",
+        "title": "Sports science is pushing athletes",
+        "content": "Sports science is pushing athletes to new heights.",
+        "tags": [
+            {
+                "type": "finance",
+                "value": "investing",
+                "threshold": 0.5401861650155845
+            },
+            {
+                "type": "sports",
+                "value": "tennis",
+                "threshold": 0.49839796831353544
+            }
+        ]
+    },
+    {
+        "id": "002",
+        "title": "The intersection of technology and art",
+        "content": "The intersection of technology and art creates new possibilities.",
+        "tags": [
+            {
+                "type": "science",
+                "value": "chemistry",
+                "threshold": 0.5278055481591626
+            }
+        ]
+    },
+    {
+        "id": "003",
+        "title": "Is blockchain the future?",
+        "content": "Is blockchain the future of secure transactions?",
+        "tags": [
+            {
+                "type": "sports",
+                "value": "basketball",
+                "threshold": 0.7528236689276624
+            }
+        ]
+    },
+    {
+        "id": "004",
+        "title": "Investing in yourself",
+        "content": "Investing in yourself is the best investment you can make.",
+        "tags": [
+            {
+                "type": "tech",
+                "value": "AI",
+                "threshold": 0.5991035663067859
+            }
+        ]
+    },
+    {
+        "id": "005",
+        "title": "Physics and philosophy often cross paths",
+        "content": "Physics and philosophy often cross paths in the search for truth.",
+        "tags": [
+            {
+                "type": "science",
+                "value": "chemistry",
+                "threshold": 0.3009963901860497
+            }
+        ]
+    },
+    {
+        "id": "006",
+        "title": "Modern art reflections",
+        "content": "Modern art is the reflection of society\u2019s deepest emotions.",
+        "tags": [
+            {
+                "type": "art",
+                "value": "painting",
+                "threshold": 0.5583305962693346
+            },
+            {
+                "type": "sports",
+                "value": "tennis",
+                "threshold": 0.5197540052001215
+            }
+        ]
+    },
+    {
+        "id": "007",
+        "title": "Modern art reflections",
+        "content": "Modern art is the reflection of society\u2019s deepest emotions.",
+        "tags": [
+            {
+                "type": "sports",
+                "value": "tennis",
+                "threshold": 0.5070419620464809
+            }
+        ]
+    },
+    {
+        "id": "008",
+        "title": "AI new electricity",
+        "content": "Artificial intelligence is the new electricity.",
+        "tags": [
+            {
+                "type": "art",
+                "value": "modern art",
+                "threshold": 0.6708975939973272
+            },
+            {
+                "type": "art",
+                "value": "painting",
+                "threshold": 0.5452962150959566
+            }
+        ]
+    },
+    {
+        "id": "009",
+        "title": "Modern art reflections",
+        "content": "Modern art is the reflection of society\u2019s deepest emotions.",
+        "tags": [
+            {
+                "type": "science",
+                "value": "chemistry",
+                "threshold": 0.3400023855626941
+            },
+            {
+                "type": "finance",
+                "value": "cryptocurrency",
+                "threshold": 0.49641383722588517
+            }
+        ]
+    },
+    {
+        "id": "010",
+        "title": "AI ethics",
+        "content": "AI ethics: How do we program morality?",
+        "tags": [
+            {
+                "type": "finance",
+                "value": "cryptocurrency",
+                "threshold": 0.44049330815099
+            }
+        ]
+    },
+    {
+        "id": "011",
+        "title": "Modern art reflections",
+        "content": "Modern art is the reflection of society\u2019s deepest emotions.",
+        "tags": [
+            {
+                "type": "sports",
+                "value": "basketball",
+                "threshold": 0.5991237498904951
+            }
+        ]
+    },
+    {
+        "id": "012",
+        "title": "Basketball more than a game",
+        "content": "Basketball is more than just a game; it's a global phenomenon.",
+        "tags": [
+            {
+                "type": "art",
+                "value": "modern art",
+                "threshold": 0.3575348142025395
+            }
+        ]
+    },
+    {
+        "id": "013",
+        "title": "Cryptocurrency: The digital gold rush",
+        "content": "Cryptocurrency: The digital gold rush of the 21st century.",
+        "tags": [
+            {
+                "type": "sports",
+                "value": "basketball",
+                "threshold": 0.6349829230897928
+            },
+            {
+                "type": "art",
+                "value": "painting",
+                "threshold": 0.6707480623908586
+            }
+        ]
+    },
+    {
+        "id": "014",
+        "title": "Tennis",
+        "content": "Tennis is a game of inches and a test of mental strength.",
+        "tags": [
+            {
+                "type": "art",
+                "value": "painting",
+                "threshold": 0.7359762133304582
+            }
+        ]
+    },
+    {
+        "id": "015",
+        "title": "AI ethics",
+        "content": "AI ethics: How do we program morality?",
+        "tags": [
+            {
+                "type": "finance",
+                "value": "investing",
+                "threshold": 0.5230597241506313
+            },
+            {
+                "type": "science",
+                "value": "chemistry",
+                "threshold": 0.43778196211785647
+            }
+        ]
+    },
+    {
+        "id": "016",
+        "title": "Physics reveals the secrets of the universe",
+        "content": "Physics reveals the secrets of the universe, one equation at a time.",
+        "tags": [
+            {
+                "type": "tech",
+                "value": "AI",
+                "threshold": 0.6956530684175287
+            }
+        ]
+    },
+    {
+        "id": "017",
+        "title": "Investing in yourself",
+        "content": "Investing in yourself is the best investment you can make.",
+        "tags": [
+            {
+                "type": "finance",
+                "value": "investing",
+                "threshold": 0.5118139671201866
+            },
+            {
+                "type": "tech",
+                "value": "AI",
+                "threshold": 0.7886688332458746
+            }
+        ]
+    },
+    {
+        "id": "018",
+        "title": "Cryptocurrency: The digital gold rush",
+        "content": "Cryptocurrency: The digital gold rush of the 21st century.",
+        "tags": [
+            {
+                "type": "sports",
+                "value": "tennis",
+                "threshold": 0.7932486874668425
+            }
+        ]
+    },
+    {
+        "id": "019",
+        "title": "AI will be better than humans",
+        "content": "AI will soon surpass human intelligence. Are we ready?",
+        "tags": [
+            {
+                "type": "tech",
+                "value": "blockchain",
+                "threshold": 0.729211859245364
+            }
+        ]
+    },
+    {
+        "id": "020",
+        "title": "Painting is poetry",
+        "content": "Painting is the silent poetry of the visual world.",
+        "tags": [
+            {
+                "type": "finance",
+                "value": "investing",
+                "threshold": 0.6477800614016056
+            }
+        ]
+    },
+    {
+        "id": "021",
+        "title": "Intersection of technology and art ",
+        "content": "The intersection of technology and art creates new possibilities.",
+        "tags": [
+            {
+                "type": "science",
+                "value": "chemistry",
+                "threshold": 0.6867818762044136
+            }
+        ]
+    },
+    {
+        "id": "022",
+        "title": "Tennis",
+        "content": "Tennis is a game of inches and a test of mental strength.",
+        "tags": [
+            {
+                "type": "sports",
+                "value": "basketball",
+                "threshold": 0.7992701781378709
+            }
+        ]
+    },
+    {
+        "id": "023",
+        "title": "Investing in yourself",
+        "content": "Investing in yourself is the best investment you can make.",
+        "tags": [
+            {
+                "type": "art",
+                "value": "modern art",
+                "threshold": 0.31142851500152063
+            }
+        ]
+    },
+    {
+        "id": "024",
+        "title": "Cryptocurrency is here to stay",
+        "content": "Cryptocurrency is here to stay, but what does the future hold?",
+        "tags": [
+            {
+                "type": "art",
+                "value": "modern art",
+                "threshold": 0.685509858514835
+            }
+        ]
+    },
+    {
+        "id": "025",
+        "title": "Physics and philosophy often cross paths",
+        "content": "Physics and philosophy often cross paths in the search for truth.",
+        "tags": [
+            {
+                "type": "finance",
+                "value": "investing",
+                "threshold": 0.7465313304001036
+            },
+            {
+                "type": "sports",
+                "value": "tennis",
+                "threshold": 0.30537807051190735
+            }
+        ]
+    },
+    {
+        "id": "026",
+        "title": "AI will be better than humans",
+        "content": "AI will soon surpass human intelligence. Are we ready?",
+        "tags": [
+            {
+                "type": "finance",
+                "value": "investing",
+                "threshold": 0.563739798951709
+            }
+        ]
+    },
+    {
+        "id": "027",
+        "title": "Modern art challenges",
+        "content": "Modern art challenges our perceptions of reality.",
+        "tags": [
+            {
+                "type": "art",
+                "value": "painting",
+                "threshold": 0.5789227263785913
+            }
+        ]
+    },
+    {
+        "id": "028",
+        "title": "Sports science is pushing athletes",
+        "content": "Sports science is pushing athletes to new heights.",
+        "tags": [
+            {
+                "type": "science",
+                "value": "chemistry",
+                "threshold": 0.6833385197759321
+            },
+            {
+                "type": "finance",
+                "value": "investing",
+                "threshold": 0.5960268959880692
+            }
+        ]
+    },
+    {
+        "id": "029",
+        "title": "Intersection in your life",
+        "content": "Investing in yourself is the best investment you can make.",
+        "tags": [
+            {
+                "type": "art",
+                "value": "modern art",
+                "threshold": 0.3061631945007412
+            },
+            {
+                "type": "tech",
+                "value": "blockchain",
+                "threshold": 0.4568055393945873
+            }
+        ]
+    },
+    {
+        "id": "030",
+        "title": "Blockchain technology is revolutionizing finance.",
+        "content": "Blockchain technology is revolutionizing finance.",
+        "tags": [
+            {
+                "type": "tech",
+                "value": "AI",
+                "threshold": 0.5439503897655572
+            },
+            {
+                "type": "tech",
+                "value": "blockchain",
+                "threshold": 0.34500857771578813
+            }
+        ]
+    },
+    {
+        "id": "031",
+        "title": "Tennis",
+        "content": "Tennis is a game of inches and a test of mental strength.",
+        "tags": [
+            {
+                "type": "finance",
+                "value": "cryptocurrency",
+                "threshold": 0.6974222268826382
+            }
+        ]
+    },
+    {
+        "id": "032",
+        "title": "Modern art reflections",
+        "content": "Modern art is the reflection of society\u2019s deepest emotions.",
+        "tags": [
+            {
+                "type": "finance",
+                "value": "investing",
+                "threshold": 0.6472791104335036
+            }
+        ]
+    },
+    {
+        "id": "033",
+        "title": "AI ethics",
+        "content": "AI ethics: How do we program morality?",
+        "tags": [
+            {
+                "type": "finance",
+                "value": "investing",
+                "threshold": 0.7587661931190766
+            },
+            {
+                "type": "sports",
+                "value": "basketball",
+                "threshold": 0.6419099448950394
+            }
+        ]
+    },
+    {
+        "id": "034",
+        "title": "AI new electricity",
+        "content": "Artificial intelligence is the new electricity.",
+        "tags": [
+            {
+                "type": "finance",
+                "value": "cryptocurrency",
+                "threshold": 0.4748403126765949
+            },
+            {
+                "type": "science",
+                "value": "physics",
+                "threshold": 0.734548146706732
+            }
+        ]
+    },
+    {
+        "id": "035",
+        "title": "Painting is poetry",
+        "content": "Painting is the silent poetry of the visual world.",
+        "tags": [
+            {
+                "type": "finance",
+                "value": "cryptocurrency",
+                "threshold": 0.7130330497790929
+            }
+        ]
+    },
+    {
+        "id": "036",
+        "title": "The intersection of technology and art",
+        "content": "The intersection of technology and art creates new possibilities.",
+        "tags": [
+            {
+                "type": "sports",
+                "value": "tennis",
+                "threshold": 0.574329468740721
+            }
+        ]
+    },
+    {
+        "id": "037",
+        "title": "Basketball more than a game",
+        "content": "Basketball is more than just a game; it's a global phenomenon.",
+        "tags": [
+            {
+                "type": "finance",
+                "value": "cryptocurrency",
+                "threshold": 0.3129229939984701
+            },
+            {
+                "type": "tech",
+                "value": "blockchain",
+                "threshold": 0.39240809903146584
+            }
+        ]
+    },
+    {
+        "id": "038",
+        "title": "Modern art challenges",
+        "content": "Modern art challenges our perceptions of reality.",
+        "tags": [
+            {
+                "type": "finance",
+                "value": "investing",
+                "threshold": 0.7994165005528765
+            }
+        ]
+    },
+    {
+        "id": "039",
+        "title": "Cryptocurrency is here to stay",
+        "content": "Cryptocurrency is here to stay, but what does the future hold?",
+        "tags": [
+            {
+                "type": "science",
+                "value": "physics",
+                "threshold": 0.3723442233275624
+            }
+        ]
+    },
+    {
+        "id": "040",
+        "title": "Modern art challenges",
+        "content": "Modern art challenges our perceptions of reality.",
+        "tags": [
+            {
+                "type": "art",
+                "value": "painting",
+                "threshold": 0.7530629590205564
+            },
+            {
+                "type": "finance",
+                "value": "investing",
+                "threshold": 0.7025729572690453
+            }
+        ]
+    },
+    {
+        "id": "041",
+        "title": "AI new electricity",
+        "content": "Artificial intelligence is the new electricity.",
+        "tags": [
+            {
+                "type": "art",
+                "value": "painting",
+                "threshold": 0.57002155586984
+            }
+        ]
+    },
+    {
+        "id": "042",
+        "title": "Investing in yourself",
+        "content": "Investing in yourself is the best investment you can make.",
+        "tags": [
+            {
+                "type": "finance",
+                "value": "investing",
+                "threshold": 0.6341235884862422
+            }
+        ]
+    },
+    {
+        "id": "043",
+        "title": "Cryptocurrency is here to stay",
+        "content": "Cryptocurrency is here to stay, but what does the future hold?",
+        "tags": [
+            {
+                "type": "finance",
+                "value": "investing",
+                "threshold": 0.6578466338097964
+            },
+            {
+                "type": "art",
+                "value": "modern art",
+                "threshold": 0.46930645686014133
+            }
+        ]
+    },
+    {
+        "id": "044",
+        "title": "Sports science is pushing athletes",
+        "content": "Sports science is pushing athletes to new heights.",
+        "tags": [
+            {
+                "type": "art",
+                "value": "modern art",
+                "threshold": 0.695318259646132
+            }
+        ]
+    },
+    {
+        "id": "045",
+        "title": "Investing in the stock market is a marathon",
+        "content": "Investing in the stock market is a marathon, not a sprint.",
+        "tags": [
+            {
+                "type": "science",
+                "value": "physics",
+                "threshold": 0.3113260113598476
+            },
+            {
+                "type": "art",
+                "value": "painting",
+                "threshold": 0.7785318628615019
+            }
+        ]
+    },
+    {
+        "id": "046",
+        "title": "Investing in the stock market is a marathon",
+        "content": "Investing in the stock market is a marathon, not a sprint.",
+        "tags": [
+            {
+                "type": "art",
+                "value": "modern art",
+                "threshold": 0.3962290226599425
+            },
+            {
+                "type": "tech",
+                "value": "blockchain",
+                "threshold": 0.4887970840620009
+            }
+        ]
+    },
+    {
+        "id": "047",
+        "title": "Is blockchain the future?",
+        "content": "Is blockchain the future of secure transactions?",
+        "tags": [
+            {
+                "type": "tech",
+                "value": "AI",
+                "threshold": 0.6970153117928098
+            }
+        ]
+    },
+    {
+        "id": "048",
+        "title": "Sports science is pushing athletes",
+        "content": "Sports science is pushing athletes to new heights.",
+        "tags": [
+            {
+                "type": "sports",
+                "value": "tennis",
+                "threshold": 0.3771878861377104
+            }
+        ]
+    },
+    {
+        "id": "049",
+        "title": "Modern art reflections",
+        "content": "Modern art is the reflection of society\u2019s deepest emotions.",
+        "tags": [
+            {
+                "type": "sports",
+                "value": "tennis",
+                "threshold": 0.33601732998223727
+            }
+        ]
+    },
+    {
+        "id": "050",
+        "title": "The art world is constantly evolving,",
+        "content": "The art world is constantly evolving, embracing new ideas.",
+        "tags": [
+            {
+                "type": "science",
+                "value": "physics",
+                "threshold": 0.38225785724200045
+            }
+        ]
+    },
+    {
+        "id": "051",
+        "title": "Is blockchain the future?",
+        "content": "Is blockchain the future of secure transactions?",
+        "tags": [
+            {
+                "type": "art",
+                "value": "modern art",
+                "threshold": 0.6144886127550276
+            },
+            {
+                "type": "finance",
+                "value": "investing",
+                "threshold": 0.7288401502169499
+            }
+        ]
+    },
+    {
+        "id": "052",
+        "title": "The intersection of technology and art",
+        "content": "The intersection of technology and art creates new possibilities.",
+        "tags": [
+            {
+                "type": "science",
+                "value": "physics",
+                "threshold": 0.6036739807448561
+            },
+            {
+                "type": "sports",
+                "value": "basketball",
+                "threshold": 0.4428798982628124
+            }
+        ]
+    },
+    {
+        "id": "053",
+        "title": "The intersection of technology and art",
+        "content": "The intersection of technology and art creates new possibilities.",
+        "tags": [
+            {
+                "type": "finance",
+                "value": "cryptocurrency",
+                "threshold": 0.56708199303504
+            },
+            {
+                "type": "art",
+                "value": "modern art",
+                "threshold": 0.7883883455886115
+            }
+        ]
+    },
+    {
+        "id": "054",
+        "title": "Modern art reflections",
+        "content": "Modern art is the reflection of society\u2019s deepest emotions.",
+        "tags": [
+            {
+                "type": "sports",
+                "value": "basketball",
+                "threshold": 0.37227481448569033
+            },
+            {
+                "type": "art",
+                "value": "painting",
+                "threshold": 0.3395377091923008
+            }
+        ]
+    },
+    {
+        "id": "055",
+        "title": "Basketball more than a game",
+        "content": "Basketball is more than just a game; it's a global phenomenon.",
+        "tags": [
+            {
+                "type": "art",
+                "value": "painting",
+                "threshold": 0.7583228272374363
+            }
+        ]
+    },
+    {
+        "id": "056",
+        "title": "Tennis",
+        "content": "Tennis is a game of inches and a test of mental strength.",
+        "tags": [
+            {
+                "type": "finance",
+                "value": "cryptocurrency",
+                "threshold": 0.4823911384446097
+            },
+            {
+                "type": "tech",
+                "value": "blockchain",
+                "threshold": 0.5648690381553775
+            }
+        ]
+    },
+    {
+        "id": "057",
+        "title": "Physics and philosophy often cross paths",
+        "content": "Physics and philosophy often cross paths in the search for truth.",
+        "tags": [
+            {
+                "type": "art",
+                "value": "painting",
+                "threshold": 0.598578330756171
+            }
+        ]
+    },
+    {
+        "id": "058",
+        "title": "Basketball more than a game",
+        "content": "Basketball is more than just a game; it's a global phenomenon.",
+        "tags": [
+            {
+                "type": "art",
+                "value": "painting",
+                "threshold": 0.7504938113543363
+            }
+        ]
+    },
+    {
+        "id": "059",
+        "title": "Is blockchain the future?",
+        "content": "Is blockchain the future of secure transactions?",
+        "tags": [
+            {
+                "type": "science",
+                "value": "chemistry",
+                "threshold": 0.3886919006361448
+            },
+            {
+                "type": "sports",
+                "value": "basketball",
+                "threshold": 0.4158193739362386
+            }
+        ]
+    },
+    {
+        "id": "060",
+        "title": "Investing in the stock market is a marathon",
+        "content": "Investing in the stock market is a marathon, not a sprint.",
+        "tags": [
+            {
+                "type": "tech",
+                "value": "AI",
+                "threshold": 0.388283452655264
+            }
+        ]
+    },
+    {
+        "id": "061",
+        "title": "Physics reveals the secrets of the universe",
+        "content": "Physics reveals the secrets of the universe, one equation at a time.",
+        "tags": [
+            {
+                "type": "sports",
+                "value": "basketball",
+                "threshold": 0.6275790898150619
+            }
+        ]
+    },
+    {
+        "id": "062",
+        "title": "Is blockchain the future?",
+        "content": "Is blockchain the future of secure transactions?",
+        "tags": [
+            {
+                "type": "art",
+                "value": "painting",
+                "threshold": 0.4864944268568915
+            },
+            {
+                "type": "sports",
+                "value": "basketball",
+                "threshold": 0.5186856778618769
+            }
+        ]
+    },
+    {
+        "id": "063",
+        "title": "Sports science is pushing athletes",
+        "content": "Sports science is pushing athletes to new heights.",
+        "tags": [
+            {
+                "type": "finance",
+                "value": "investing",
+                "threshold": 0.4871980822868802
+            },
+            {
+                "type": "tech",
+                "value": "blockchain",
+                "threshold": 0.5629592714835792
+            }
+        ]
+    },
+    {
+        "id": "064",
+        "title": "Cryptocurrency is the future",
+        "content": "Cryptocurrency: The digital gold rush of the 21st century.",
+        "tags": [
+            {
+                "type": "sports",
+                "value": "basketball",
+                "threshold": 0.3587113878254819
+            },
+            {
+                "type": "science",
+                "value": "physics",
+                "threshold": 0.3267585312542392
+            }
+        ]
+    },
+    {
+        "id": "065",
+        "title": "Painting is poetry",
+        "content": "Painting is the silent poetry of the visual world.",
+        "tags": [
+            {
+                "type": "finance",
+                "value": "investing",
+                "threshold": 0.390639739758052
+            },
+            {
+                "type": "science",
+                "value": "chemistry",
+                "threshold": 0.667675785355598
+            }
+        ]
+    },
+    {
+        "id": "066",
+        "title": "AI ethics",
+        "content": "AI ethics: How do we program morality?",
+        "tags": [
+            {
+                "type": "finance",
+                "value": "investing",
+                "threshold": 0.7907630011757824
+            },
+            {
+                "type": "tech",
+                "value": "AI",
+                "threshold": 0.3267689729856225
+            }
+        ]
+    },
+    {
+        "id": "067",
+        "title": "Physics reveals the secrets of the universe",
+        "content": "Physics reveals the secrets of the universe, one equation at a time.",
+        "tags": [
+            {
+                "type": "tech",
+                "value": "blockchain",
+                "threshold": 0.38414063677194965
+            },
+            {
+                "type": "finance",
+                "value": "cryptocurrency",
+                "threshold": 0.4071196292061896
+            }
+        ]
+    },
+    {
+        "id": "068",
+        "title": "Cryptocurrency: The digital gold rush",
+        "content": "Cryptocurrency: The digital gold rush of the 21st century.",
+        "tags": [
+            {
+                "type": "tech",
+                "value": "AI",
+                "threshold": 0.5250298742154696
+            },
+            {
+                "type": "science",
+                "value": "physics",
+                "threshold": 0.5442551756278191
+            }
+        ]
+    },
+    {
+        "id": "069",
+        "title": "AI will be better than humans",
+        "content": "AI will soon surpass human intelligence. Are we ready?",
+        "tags": [
+            {
+                "type": "sports",
+                "value": "tennis",
+                "threshold": 0.6202290857242614
+            },
+            {
+                "type": "tech",
+                "value": "blockchain",
+                "threshold": 0.6922980620216221
+            }
+        ]
+    },
+    {
+        "id": "070",
+        "title": "Investing in the stock market is a marathon",
+        "content": "Investing in the stock market is a marathon, not a sprint.",
+        "tags": [
+            {
+                "type": "finance",
+                "value": "investing",
+                "threshold": 0.34782351448711313
+            },
+            {
+                "type": "tech",
+                "value": "blockchain",
+                "threshold": 0.40658986248788903
+            }
+        ]
+    },
+    {
+        "id": "071",
+        "title": "Cryptocurrency is here to stay",
+        "content": "Cryptocurrency is here to stay, but what does the future hold?",
+        "tags": [
+            {
+                "type": "science",
+                "value": "chemistry",
+                "threshold": 0.33684363365282527
+            },
+            {
+                "type": "art",
+                "value": "painting",
+                "threshold": 0.5064464285396433
+            }
+        ]
+    },
+    {
+        "id": "072",
+        "title": "Art World Evolution",
+        "content": "The art world is constantly evolving, embracing new ideas.",
+        "tags": [
+            {
+                "type": "art",
+                "value": "painting",
+                "threshold": 0.3853329301140268
+            }
+        ]
+    },
+    {
+        "id": "073",
+        "title": "AI ethics",
+        "content": "AI ethics: How do we program morality?",
+        "tags": [
+            {
+                "type": "finance",
+                "value": "cryptocurrency",
+                "threshold": 0.3647648008148578
+            }
+        ]
+    },
+    {
+        "id": "074",
+        "title": "Investing in yourself",
+        "content": "Investing in yourself is the best investment you can make.",
+        "tags": [
+            {
+                "type": "tech",
+                "value": "AI",
+                "threshold": 0.5662483960344109
+            },
+            {
+                "type": "science",
+                "value": "chemistry",
+                "threshold": 0.5506109334732745
+            }
+        ]
+    },
+    {
+        "id": "075",
+        "title": "AI will be better than humans",
+        "content": "AI will soon surpass human intelligence. Are we ready?",
+        "tags": [
+            {
+                "type": "art",
+                "value": "modern art",
+                "threshold": 0.6742736086945916
+            },
+            {
+                "type": "finance",
+                "value": "investing",
+                "threshold": 0.3183503393768354
+            }
+        ]
+    },
+    {
+        "id": "076",
+        "title": "Investing in yourself",
+        "content": "Investing in yourself is the best investment you can make.",
+        "tags": [
+            {
+                "type": "science",
+                "value": "physics",
+                "threshold": 0.6891200960148484
+            }
+        ]
+    },
+    {
+        "id": "077",
+        "title": "Cryptocurrency is here to stay",
+        "content": "Cryptocurrency: The digital gold rush of the 21st century.",
+        "tags": [
+            {
+                "type": "art",
+                "value": "painting",
+                "threshold": 0.47971567877862004
+            }
+        ]
+    },
+    {
+        "id": "078",
+        "title": "Tennis",
+        "content": "Tennis is a game of inches and a test of mental strength.",
+        "tags": [
+            {
+                "type": "tech",
+                "value": "blockchain",
+                "threshold": 0.7953210923181813
+            },
+            {
+                "type": "tech",
+                "value": "AI",
+                "threshold": 0.44170034532020874
+            }
+        ]
+    },
+    {
+        "id": "079",
+        "title": "Blockchain the future?",
+        "content": "Is blockchain the future of secure transactions?",
+        "tags": [
+            {
+                "type": "science",
+                "value": "chemistry",
+                "threshold": 0.582703141186626
+            }
+        ]
+    },
+    {
+        "id": "080",
+        "title": "Cryptocurrency is here to stay",
+        "content": "Cryptocurrency is here to stay, but what does the future hold?",
+        "tags": [
+            {
+                "type": "tech",
+                "value": "AI",
+                "threshold": 0.35976135275378146
+            },
+            {
+                "type": "art",
+                "value": "modern art",
+                "threshold": 0.41029897823369144
+            }
+        ]
+    },
+    {
+        "id": "081",
+        "title": "AI new electricity",
+        "content": "Artificial intelligence is the new electricity.",
+        "tags": [
+            {
+                "type": "finance",
+                "value": "investing",
+                "threshold": 0.7409158402827162
+            },
+            {
+                "type": "art",
+                "value": "modern art",
+                "threshold": 0.5256444823666573
+            }
+        ]
+    },
+    {
+        "id": "082",
+        "title": "Cryptocurrency: The digital gold rush",
+        "content": "Cryptocurrency: The digital gold rush of the 21st century.",
+        "tags": [
+            {
+                "type": "tech",
+                "value": "blockchain",
+                "threshold": 0.7485171816233994
+            },
+            {
+                "type": "art",
+                "value": "painting",
+                "threshold": 0.5357429556609463
+            }
+        ]
+    },
+    {
+        "id": "083",
+        "title": "AI new electricity",
+        "content": "Artificial intelligence is the new electricity.",
+        "tags": [
+            {
+                "type": "art",
+                "value": "modern art",
+                "threshold": 0.6953604797708011
+            },
+            {
+                "type": "finance",
+                "value": "investing",
+                "threshold": 0.6330974271578929
+            }
+        ]
+    },
+    {
+        "id": "084",
+        "title": "Art World Evolution",
+        "content": "The art world is constantly evolving, embracing new ideas.",
+        "tags": [
+            {
+                "type": "science",
+                "value": "chemistry",
+                "threshold": 0.33940774961113734
+            },
+            {
+                "type": "finance",
+                "value": "cryptocurrency",
+                "threshold": 0.6993749437406074
+            }
+        ]
+    },
+    {
+        "id": "085",
+        "title": "Modern art reflections",
+        "content": "Modern art is the reflection of society\u2019s deepest emotions.",
+        "tags": [
+            {
+                "type": "tech",
+                "value": "blockchain",
+                "threshold": 0.7403203440189522
+            }
+        ]
+    },
+    {
+        "id": "086",
+        "title": "Blockchain technology in Finance",
+        "content": "Blockchain technology is revolutionizing finance.",
+        "tags": [
+            {
+                "type": "art",
+                "value": "modern art",
+                "threshold": 0.38939279687031697
+            }
+        ]
+    },
+    {
+        "id": "087",
+        "title": "Blockchain tech revolutionizing finance",
+        "content": "Blockchain technology is revolutionizing finance.",
+        "tags": [
+            {
+                "type": "art",
+                "value": "modern art",
+                "threshold": 0.5355465257390015
+            },
+            {
+                "type": "science",
+                "value": "physics",
+                "threshold": 0.5798510923454557
+            }
+        ]
+    },
+    {
+        "id": "088",
+        "title": "Chemistry of life",
+        "content": "The chemistry of life is as fascinating as it is complex.",
+        "tags": [
+            {
+                "type": "sports",
+                "value": "tennis",
+                "threshold": 0.4346340409115264
+            },
+            {
+                "type": "finance",
+                "value": "cryptocurrency",
+                "threshold": 0.603686671557224
+            }
+        ]
+    },
+    {
+        "id": "089",
+        "title": "Basketball more than a game",
+        "content": "Basketball is more than just a game; it's a global phenomenon.",
+        "tags": [
+            {
+                "type": "art",
+                "value": "modern art",
+                "threshold": 0.6794538746468002
+            },
+            {
+                "type": "science",
+                "value": "chemistry",
+                "threshold": 0.7151751668590332
+            }
+        ]
+    },
+    {
+        "id": "090",
+        "title": "Blockchain revolutionizing finance",
+        "content": "Blockchain technology is revolutionizing finance.",
+        "tags": [
+            {
+                "type": "finance",
+                "value": "cryptocurrency",
+                "threshold": 0.5581723720649332
+            }
+        ]
+    },
+    {
+        "id": "091",
+        "title": "Modern art challenges",
+        "content": "Modern art challenges our perceptions of reality.",
+        "tags": [
+            {
+                "type": "sports",
+                "value": "basketball",
+                "threshold": 0.40740134401983946
+            }
+        ]
+    },
+    {
+        "id": "092",
+        "title": "Sports science is pushing athletes",
+        "content": "Sports science is pushing athletes to new heights.",
+        "tags": [
+            {
+                "type": "finance",
+                "value": "cryptocurrency",
+                "threshold": 0.5281159509918538
+            },
+            {
+                "type": "tech",
+                "value": "blockchain",
+                "threshold": 0.6113498371356074
+            }
+        ]
+    },
+    {
+        "id": "093",
+        "title": "The secrets of the universe",
+        "content": "Physics reveals the secrets of the universe, one equation at a time.",
+        "tags": [
+            {
+                "type": "art",
+                "value": "modern art",
+                "threshold": 0.3012096793431131
+            },
+            {
+                "type": "tech",
+                "value": "blockchain",
+                "threshold": 0.5749472099834982
+            }
+        ]
+    },
+    {
+        "id": "094",
+        "title": "The chemistry of life ",
+        "content": "The chemistry of life is as fascinating as it is complex.",
+        "tags": [
+            {
+                "type": "art",
+                "value": "painting",
+                "threshold": 0.7517393635669662
+            },
+            {
+                "type": "tech",
+                "value": "AI",
+                "threshold": 0.41789779063352667
+            }
+        ]
+    },
+    {
+        "id": "095",
+        "title": "The art world is constantly evolving,",
+        "content": "The art world is constantly evolving, embracing new ideas.",
+        "tags": [
+            {
+                "type": "finance",
+                "value": "cryptocurrency",
+                "threshold": 0.5746633617558613
+            },
+            {
+                "type": "art",
+                "value": "painting",
+                "threshold": 0.4927627722611123
+            }
+        ]
+    },
+    {
+        "id": "096",
+        "title": "Modern art challenges",
+        "content": "Modern art challenges our perceptions of reality.",
+        "tags": [
+            {
+                "type": "science",
+                "value": "physics",
+                "threshold": 0.6462693618238536
+            }
+        ]
+    },
+    {
+        "id": "097",
+        "title": "Intersection of technology and art ",
+        "content": "The intersection of technology and art creates new possibilities.",
+        "tags": [
+            {
+                "type": "art",
+                "value": "modern art",
+                "threshold": 0.3364736662548143
+            },
+            {
+                "type": "tech",
+                "value": "blockchain",
+                "threshold": 0.6177364560645063
+            }
+        ]
+    },
+    {
+        "id": "098",
+        "title": "Blcokchain",
+        "content": "Is blockchain the future of secure transactions?",
+        "tags": [
+            {
+                "type": "tech",
+                "value": "blockchain",
+                "threshold": 0.3188163242078199
+            },
+            {
+                "type": "sports",
+                "value": "basketball",
+                "threshold": 0.7529171608116063
+            }
+        ]
+    },
+    {
+        "id": "099",
+        "title": "Blockchain future",
+        "content": "Is blockchain the future of secure transactions?",
+        "tags": [
+            {
+                "type": "sports",
+                "value": "tennis",
+                "threshold": 0.6268456616007096
+            },
+            {
+                "type": "tech",
+                "value": "AI",
+                "threshold": 0.671589425768564
+            }
+        ]
+    },
+    {
+        "id": "100",
+        "title": "Art and technology",
+        "content": "The art world is constantly evolving, embracing new ideas.",
+        "tags": [
+            {
+                "type": "tech",
+                "value": "AI",
+                "threshold": 0.6010831784172397
+            },
+            {
+                "type": "sports",
+                "value": "basketball",
+                "threshold": 0.6922185625553963
+            }
+        ]
+    }
+]

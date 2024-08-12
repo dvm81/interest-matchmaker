@@ -1,0 +1,56 @@
+/* Global body styles for the entire page */
+body {
+    font-family: Arial, sans-serif; /* Sets the font for the entire page */
+    margin: 20px; /* Adds margin around the entire body content */
+}
+
+/* Styles for the main heading (h1) */
+h1 {
+    color: #333; /* Dark grey color for the main heading text */
+}
+
+/* Container that holds the user selection and content display sections */
+.container {
+    display: flex; /* Enables flexbox layout for arranging child elements in a row */
+    flex-direction: row; /* Aligns child elements (user-selection and content-display) horizontally */
+    justify-content: space-between; /* Adds space between the user selection and content display sections */
+    width: 100%; /* Ensures the container takes up the full width of its parent */
+}
+
+/* Styles for the user selection section */
+.user-selection {
+    margin-right: 20px; /* Adds space to the right of the user selection section */
+}
+
+/* Styles for the content display section */
+.content-display {
+    flex-grow: 1; /* Allows the content display section to expand and fill the remaining space */
+}
+
+/* Styles for the table displaying the matches */
+#matches {
+    width: 100%; /* Ensures the table takes up the full width of its container */
+    margin: 20px 0; /* Adds margin above and below the table */
+    border-collapse: collapse; /* Collapses table borders into a single border */
+}
+
+/* Styles for table header cells */
+#matches th {
+    background-color: #f2f2f2; /* Light grey background color for table headers */
+    padding: 8px; /* Adds padding inside the header cells */
+    border: 1px solid #ddd; /* Adds a light grey border around each header cell */
+    text-align: left; /* Aligns the text to the left within each header cell */
+}
+
+/* Styles for table data cells */
+#matches td {
+    padding: 8px; /* Adds padding inside the data cells */
+    border: 1px solid #ddd; /* Adds a light grey border around each data cell */
+    text-align: left; /* Aligns the text to the left within each data cell */
+    background-color: white; /* White background color for data cells */
+}
+
+/* Styles for alternating row colors in the table */
+#matches tr:nth-child(even) {
+    background-color: #f9f9f9; /* Light grey background color for even-numbered rows to alternate row colors */
+}
