@@ -2,13 +2,13 @@
 
 ## Overview
 
-Interest Matchmaker is a web application that matches users with content based on their interests. The application allows users to select from a dropdown of users and view content that aligns with their specified interests. The content is displayed in a table with pagination and search functionality.
+Interest Matchmaker is a web application that matches users with content based on their interests. The application allows to select from a dropdown of users and view content that aligns with their specified interests. The content is displayed in a table with pagination and search functionality.
 
 ## Features
 - **User Selection**: Select a user from a dropdown list.
 - **Content Matching**: View content that matches the selected user's interests.
 - **Search**: Filter matched content using a search box.
-- **Pagination**: Navigate through content using pagination controls.
+- **Pagination**: Navigate through content using pagination controls (15 content items per page).
 
 ## Prerequisites
 
@@ -24,7 +24,7 @@ git clone https://github.com/dvm81/interest-matchmaker.git
 cd interest-matchmaker
 ```
 
-### Step 2: Set Up a Virtual Environment (in your favorite manner)
+### Step 2: Set Up a Virtual Environment (in your favorite manner, for example:)
 ```bash
 python3 -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
@@ -34,18 +34,18 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 pip install -r requirements.txt
 ```
 ### Step 4: Prepare the Data Files (optional)
-- If you want to use your own json files: place `users.json` and `content.json` files in the `data/` directory.
+- If you want to use your own json files: place your `users.json` and `content.json` files in the `data/` directory, replacing the exisitng ones.
 - These files should contain the users and content data in JSON format.
 - There are already sample `users.json` and `content.json` files and the app will work with them. 
 
-### Step 5: Run the Application
+### Step 5: Run the Application (from project root directoy)
 ```bash
 flask run
 ```
 - The application will be available at `http://127.0.0.1:5000/`.
 
 ### Step 6: Access the Application
-- Open your web browser and navigate to `http://127.0.0.1:5000/` to use the Interest Matchmaker.
+- Open your web browser and navigate to `http://127.0.0.1:5000/` to use the Interest Matchmaker app.
 
 ### Matching Logic
 ### Matching Logic Explanation
