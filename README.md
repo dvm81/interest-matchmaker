@@ -20,11 +20,11 @@ Interest Matchmaker is a web application that matches users with content based o
 
 ### Step 1: Clone the Repository
 ```bash
-git clone https://github.com/your-username/interest-matchmaker.git
+git clone https://github.com/dvm81/interest-matchmaker.git
 cd interest-matchmaker
 ```
 
-### Step 2: Set Up a Virtual Environment (Optional but Recommended)
+### Step 2: Set Up a Virtual Environment (in your favorite manner)
 ```bash
 python3 -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
@@ -33,9 +33,10 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 ```bash
 pip install -r requirements.txt
 ```
-### Step 4: Prepare the Data Files
-- Create `users.json` and `content.json` files in the `data/` directory.
+### Step 4: Prepare the Data Files (optional)
+- If you want to use your own json files: place `users.json` and `content.json` files in the `data/` directory.
 - These files should contain the users and content data in JSON format.
+- There are already sample `users.json` and `content.json` files and the app will work with them. 
 
 ### Step 5: Run the Application
 ```bash
@@ -49,7 +50,6 @@ flask run
 ### Matching Logic
 ### Matching Logic Explanation
 
-The matching logic in the provided code is based on two key functions: `index_content_by_tags` and `match_content_to_users`. These functions work together to efficiently match users with content based on their interests.
 
 #### 1. **index_content_by_tags(content) Function**
 
@@ -139,6 +139,23 @@ If a user named "John" is interested in the "UK" (`('country', 'UK')`), and ther
 - **match_content_to_users:** **O(u * i * k)**, where `u` is the number of users, `i` is the number of interests per user, and `k` is the number of content items associated with each interest in the inverted index. The complexity arises because, for each user interest, a lookup is performed in the index, and each matching content item is checked against the user's threshold.
 
 This approach optimizes the matching process by using the inverted index to reduce the need for repeated searches through all content, making it efficient for large datasets.
+
+### Running all the tests 
+```bash
+pytest -v
+```
+-v stands for "verbose" and will show each test being run along with the result.
+-s will allow you to see the output from print statements within your tests.
+
+Alternatively, running exclusively:
+- the matching logic tests 
+```bash
+pytest tests/test_match_logic.py -v 
+```
+- data ingestion process tests 
+```bash
+pytest tests/test_data_ingest.py  -v 
+```
 
 ### User Interface (UI) Structure
 - Header (`<h1>`): Displays the title of the application.
