@@ -64,7 +64,7 @@ If we have content items tagged with `('country', 'UK')` and `('topic', 'sports'
 ```
 
 - **Matching step (match_content_to_users function):**
-  - For each user, their interests are used to query the inverted index. Content items that meet the threshold criteria and haven’t already been matched are added to the user's list of matches.
+  - For each user, their interests are used to query the inverted index. Content items that match the interest (type, value) pair and meet the threshold criteria are added to the user's list of matches.
   - **Example Output:**
 
 If a user named "John" is interested in the "UK" (`('country', 'UK')`), and there are two content items that match this interest (and threshold criteria is met), the output might look like this:
