@@ -161,12 +161,13 @@ def match_content_to_users(users, content):
             key = (interest['type'], interest['value'])
             if key in content_by_tags:
                 for item in content_by_tags[key]:
-                   if (item['id'] not in seen_content_ids and 
-                        any(tag['type'] == interest['type'] and 
-                            tag['value'] == interest['value'] and 
-                            tag['threshold'] >= interest['threshold'] for tag in item['tags'])):
-                        matches[user['name']].append(item)
-                        seen_content_ids.add(item['id'])
+                   # Only proceed if this content item has not been added before
+                   if item['id'] not in seen_content_ids: 
+                        # Check if any tag's threshold meets the interest threshold
+                        if any(tag['threshold'] >= interest['threshold'] for tag in item['tags'] 
+                               if tag['type'] == interest['type'] and tag['value'] == interest['value']):
+                            matches[user['name']].append(item)
+                            seen_content_ids.add(item['id'])
 
     return matches
 
