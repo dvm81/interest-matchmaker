@@ -106,8 +106,8 @@ pytest tests/test_data_ingest.py  -v
 
 ## User Interface (UI) Structure
 - Header (`<h1>`): Displays the title of the application.
-- Left Panel (`<div class="left-panel">`): Contains a dropdown (`<select>`) to choose a user.
-- Right Panel (`<div class="right-panel">`): Displays the matched content in a table. The table includes:
+- Upper Panel (`<div class="left-panel">`): Contains a dropdown (`<select>`) to choose a user.
+- Lower Panel (`<div class="right-panel">`): Displays the matched content in a table. The table includes:
     - A search box to filter content.
     - A table with two columns: Title and Content.
     - Pagination buttons to navigate through content.
@@ -119,7 +119,7 @@ pytest tests/test_data_ingest.py  -v
 
 
 ### Styles (CSS)
-- The application uses a simple CSS structure to style the layout, with a focus on a clean and user-friendly interface. The left panel and right panel are distinct sections, with light colors to separate them visually.
+- The application uses a simple CSS structure to style the layout, with a focus on a clean and user-friendly interface. The left upper and lower panel are distinct sections, with light colors to separate them visually.
 
 ### Troubleshooting
 - Data Issues: Ensure that `users.json` and `content.json` are correctly formatted and located in the `data/` directory.
