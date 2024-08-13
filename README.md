@@ -2,7 +2,7 @@
 
 ## Overview
 
-Interest Matchmaker is a web application that matches users with content based on the users' interests. The application allows to select from a dropdown of users and view content that aligns with the users' specified interests. The content is displayed in a table with pagination and search functionality.
+Interest Matchmaker is a simple web application that matches users with content based on the users' interests. The application allows to select from a dropdown of users and view content that aligns with the users' specified interests. The content is displayed in a table with pagination and search functionality.
 
 ## Features
 - **User Selection**: Select a user from a dropdown list.
@@ -50,9 +50,9 @@ flask run
 ## Matching Logic
 
 ### Summary of Matching Logic
-
-- **Preprocessing (index_content_by_tags):**
-  - The content is indexed by tags to create an inverted index (Python dictionary), allowing for efficient lookups when matching users to content.
+The matching logic has a preprocessing and a matching step. 
+- **Preprocessing (index_content_by_tags function):**
+  - The content (list of dictionaries) is indexed by tags to create an inverted index (Python dictionary mapping (type,value) to list of content items), allowing for efficient lookups when matching users to content.
   - **Example Output:**
 If we have content items tagged with `('country', 'UK')` and `('topic', 'sports')`, the dictionary might look like this:
 
@@ -63,11 +63,11 @@ If we have content items tagged with `('country', 'UK')` and `('topic', 'sports'
 }
 ```
 
-- **Matching (match_content_to_users):**
+- **Matching (match_content_to_users function):**
   - For each user, their interests are used to query the inverted index. Content items that meet the threshold criteria and haven’t already been matched are added to the user's list of matches.
   - **Example Output:**
 
-If a user named "John" is interested in the "UK" (`('country', 'UK')`), and there are two content items that match this interest, the output might look like this:
+If a user named "John" is interested in the "UK" (`('country', 'UK')`), and there are two content items that match this interest (and threshold criteria is met), the output might look like this:
 
 ```python
 {
@@ -77,9 +77,14 @@ If a user named "John" is interested in the "UK" (`('country', 'UK')`), and ther
 
 ### Time Complexity Analysis
 
-- **index_content_by_tags:** **O(n * m)**, where `n` is the number of content items and `m` is the average number of tags per content item. This is because each tag of every content item is processed to build the inverted index.
+- **index_content_by_tags:** **O(n * m)**, where `n` is the number of content items and `m` is the average number of tags per content item. 
 
-- **match_content_to_users:** **O(u * i * k)**, where `u` is the number of users, `i` is the average number of interests per user, and `k` is the average number of content items associated with each interest in the inverted index. 
+- **match_content_to_users:** **O(u * i * k)**, where `u` is the number of users, `i` is the average number of interests per user, and `k` is the average number of content items associated with each interest in the inverted index. In the worst case scenario, `k` could approach `n` (total number of content items). 
+
+### Space Complexity:
+- **index_content_by_tags:** The space complexity is `O(n * m)` because all the tags and their associated content items are stoired in the inverted index.
+- **match_content_to_users:** The space complexity here is `O(u * k)` for storing the matches, where `k` is the average number of content items matched per user, `u` is the number of users.
+
 This approach optimizes the matching process by using the inverted index to reduce the need for repeated searches through all content, making it efficient for large datasets.
 
 ## Running the unit tests (pytest)
