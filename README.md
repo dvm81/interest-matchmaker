@@ -50,11 +50,10 @@ flask run
 ## Matching Logic
 
 ### Summary of Matching Logic
-The matching logic has a preprocessing step (inverted index creation) and a matching step. 
-- **Preprocessing step (index_content_by_tags function):**
+The matching logic has an inverted index creation step and a matching step. 
+- **Inverted index creation step (index_content_by_tags function):**
   - The content (list of dictionaries) is indexed by tags to create an **inverted index** (Python dictionary mapping (type,value) to list of content items), allowing for efficient lookups when matching users to content.
-  - **Example Output:**
-If we have content items tagged with `('country', 'UK')` and `('topic', 'sports')`, the dictionary might look like this:
+  - **Example Output:** If we have content items tagged with `('country', 'UK')` and `('topic', 'sports')`, the dictionary might look like this:
 
 ```python
 {
@@ -65,9 +64,7 @@ If we have content items tagged with `('country', 'UK')` and `('topic', 'sports'
 
 - **Matching step (match_content_to_users function):**
   - For each user, their interests are used to query the inverted index. Content items that match the interest (type, value) pair and meet the threshold criteria are added to the user's list of matches.
-  - **Example Output:**
-
-If a user named "John" is interested in the "UK" (`('country', 'UK')`), and there are two content items that match this interest (and threshold criteria is met), the output might look like this:
+  - **Example Output:** If a user named "John" is interested in the "UK" (`('country', 'UK')`), and there are two content items that match this interest (and threshold criteria is met), the output might look like this:
 
 ```python
 {
