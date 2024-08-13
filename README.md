@@ -2,17 +2,17 @@
 
 ## Overview
 
-Interest Matchmaker is a web application that matches users with content based on their interests. The application allows to select from a dropdown of users and view content that aligns with their specified interests. The content is displayed in a table with pagination and search functionality.
+Interest Matchmaker is a web application that matches users with content based on the users' interests. The application allows to select from a dropdown of users and view content that aligns with the users' specified interests. The content is displayed in a table with pagination and search functionality.
 
 ## Features
 - **User Selection**: Select a user from a dropdown list.
 - **Content Matching**: View content that matches the selected user's interests.
 - **Search**: Filter matched content using a search box.
-- **Pagination**: Navigate through content using pagination controls (15 content items per page).
+- **Pagination**: Navigate through matched content using pagination controls (15 content items per page).
 
 ## Prerequisites
 
-- **Python 3.7+**
+- **Python 3.7+** (developed with Python 3.10.7)
 - **Flask** (Python web framework)
 - **Jinja2** (for templating, comes with Flask)
 
@@ -47,11 +47,11 @@ flask run
 ### Step 6: Access the Application
 - Open your web browser and navigate to `http://127.0.0.1:5000/` to use the Interest Matchmaker app.
 
-### Matching Logic
+## Matching Logic
 ### Matching Logic Explanation
 
 
-#### 1. **index_content_by_tags(content) Function**
+### 1. **index_content_by_tags(content) Function**
 
 This function creates an **inverted index** that maps content tags to the content items that contain them. The idea is to preprocess the content so that when matching users to content, we can quickly find relevant content items based on the user's interests.
 
